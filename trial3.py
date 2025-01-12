@@ -11,7 +11,7 @@ import base64
 
 GROQ_API_KEY = "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"
 
-video_file = open("C:/Users/ronit/OneDrive/Desktop/Major/shorts.mp4", "rb")
+video_file = open("shorts.mp4", "rb")
 video_bytes = video_file.read()
 st.sidebar.video(video_bytes,autoplay=True,loop=True,)
 
