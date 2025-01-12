@@ -136,7 +136,7 @@ def try2():
             except sr.RequestError:
                 st.error("Could not request results from Google Speech Recognition service.")
 
-    st.chat_input("Your Response:",key='user_input', on_change=send_message)
+    st.message_input("Your Response:",key='user_input', on_change=send_message)
     
     
 def send_message(): 
