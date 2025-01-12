@@ -173,19 +173,6 @@ def send_message():
         st.session_state.user_input = ""
     
 
-    
-
-# def play_bot_response(bot_response):
-#     audio_file = "temp_response.mp3"
-#     tts = gTTS(text=bot_response, lang='en')
-#     tts.save(audio_file)
-
-#     if os.path.exists(audio_file):
-#         audio_data = AudioSegment.from_file(audio_file, format="mp3")
-#         play(audio_data)
-#     else:
-#         st.error("Audio file not found.")
-
 
 # Function to autoplay audio using base64 encoding
 def autoplay_audio(file_path: str):
