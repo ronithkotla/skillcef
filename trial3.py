@@ -7,8 +7,6 @@ from pdfminer.high_level import extract_text
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 from langchain_core.exceptions import OutputParserException
-from pydub import AudioSegment
-from pydub.playback import play
 import base64
 
 GROQ_API_KEY = "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"
